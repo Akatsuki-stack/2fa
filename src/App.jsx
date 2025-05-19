@@ -10,7 +10,7 @@ const PanelManagement = lazy(() => import("./pages/PanelManagement"));
 const RollAssign = lazy(() => import("./pages/RollAssign"));
 const ClientManagement = lazy(() => import("./pages/ClientManagement"));
 const SiteUser = lazy(() => import("./pages/SiteUser"));
-const LoginLogs = lazy(() => import("./pages/LoginLogs"));
+
 const AddClient = lazy(() => import("./pages/AddClient"));
 const AddUser = lazy(() => import("./pages/Adduser"));
 const ChangePassword = lazy(() => import("./pages/ChangePassword"));
@@ -66,7 +66,6 @@ function App() {
             <Route path="roll-assign" element={<RollAssign />} />
             <Route path="client-management" element={<ClientManagement />} />
             <Route path="site-management" element={<SiteManagement />} />
-            <Route path="login-logs" element={<LoginLogs />} />
             <Route path="site-user" element={<SiteUser />} />
             <Route path="add-client" element={<AddClient />} />
             <Route path="add-user" element={<AddUser />} />
